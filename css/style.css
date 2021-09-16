@@ -1,0 +1,76 @@
+/*Diseño de las paginas*/
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	list-style-type: none;
+}
+header{
+	width: 100%;
+  	position: fixed;
+  	z-index: 100;
+}
+
+body{	
+	font-family: 'Raleway', sans-serif;
+}
+h1, h2, h3, h4, h5{
+	font-family: 'Anton', sans-serif;
+}
+
+.contenedor h2{
+	font-size: 5vw;
+}
+.contenedor p{
+	font-size: 3vw;
+}
+
+.edicion-links ul li{
+	list-style: none;
+}
+
+.cover{
+	position: absolute;
+	top: -0.10%;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+}
+
+
+.cover:hover{
+	background-color: rgba(255,255,255,0.1);
+	transition-duration: 1s;
+}
+
+.cover-logos{
+	border-radius:25px;
+}
+
+.cover-logos:hover{
+	transition-property: 1s;
+	width:105%;
+}
+
+.coverima:hover{
+	background-color: rgba(59,131,189,0.7);
+	background-blend-mode: darken;
+	transition-duration: 1s;
+	width:101%;
+	color: white;
+}
+
+.boton{
+	opacity: 0.5;
+}
+
+
+.card-title{
+	min-height: 3rem;
+}
+.card-text{
+	min-height: 10rem;
+}
